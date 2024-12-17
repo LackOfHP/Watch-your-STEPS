@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!Watch your STEPS!!</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div id="loginPage" class="container">
+        <h1>!!Watch your STEPS!!</h1>
+        <p>Please log in to continue.</p>
+        <input type="text" id="username" placeholder="Enter your username" style="padding: 10px; font-size: 16px;">
+        <br><br>
+        <button id="loginButton">Login</button>
+    </div>
+
+    <div id="page1" class="gamePage">
+        <h1><b>How many toes you have?</b></h1>
+        <button class="nextButton" data-next="page2">10</button>
+        <button class="nextButton" data-next="page2">20</button>
+       
+    </div>
+
+    <div id="page2" class="gamePage">
+        <h1><b>One step at a time , five steps after 10s. What does it called?</b></h1>
+        <button class="nextButton" data-next="page3">Walk</button>
+        <button class="nextButton" data-next="page3">Lurk</button>
+        
+    </div>
+
+    <div id="page3" class="gamePage">
+        <h1><b>So far so good I see.... Can you see your toes while walking tho?</b></h1>
+        <button class="nextButton" data-next="page4">Yes</button>
+        <button class="nextButton" data-next="page4">No</button>
+    </div>
+
+    <div id="page4" class="gamePage">
+        <h1><b>Then you should WATCH YOUR STEPS!!!</b></h1>
+        <button class="nextButton" data-next="page5">Watch</button>
+        <button class="nextButton" data-next="page5">Ignore</button>
+    </div>
+
+    <div id="page5" class="gamePage">
+        <h1><b>What colour is the sky?</b></h1>
+        <button class="nextButton" data-next="page6">Black</button>
+        <button class="nextButton" data-next="page6">Blue</button>
+        <button class="nextButton" data-next="page6"></button>
+        
+    </div>
+
+    <div id="page6" class="gamePage">
+        <h1><b>You are still here? Ahh..I see.. A persistant one! You are almoost there</b></h1>
+        <button class="nextButton" data-next="page7">I see...</button>
+        <button class="nextButton" data-next="page7">Where?</button>
+        
+    </div>
+
+    <div id="page7" class="gamePage">
+        <h1><b>Ok... So how was the experience??</b></h1>
+        <button class="nextButton" data-next="page8">Good</button>
+        <button class="nextButton" data-next="page8">Bad</button>
+       
+    </div>
+
+    <div id="page8" class="gamePage">
+        <h1><b>Thank you for visiting</b></h1>
+        <button id="finalButton">Restart</button>
+        <button id="finalButton">Most Welcome</button>
+        
+    </div>
+
+    <script src="ctrlrm.js"></script>
+</body>
+</html>
